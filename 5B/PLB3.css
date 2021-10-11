@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to left bottom, #fbf7fc, #fbf7fc, #fbf7fc, #fbf7fc, #fbf7fc);
+}
+
+
+.mainLine{
+    text-align: center;
+    color:rgb(34, 30, 30); 
+    font-size: 3rem;
+    font-family: 'Andada Pro', serif;
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quoteCard{
+    border: thick double whitesmoke;
+    border-radius: 20px;
+    margin: 5px;
+    background-image: linear-gradient(to left bottom, #d6eec7, #ddf3cf, #e0f5d2,#d9f0cb,#dff3d2);
+}
+
+.quoteDesign{
+    padding: 2%;
+    text-align: center;
+}
+
+.theQuote{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.author{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1f1d1d;
+    font-weight: 500;
+}
+
+.authorBlock {
+    text-align: center;
+}
+
+footer{
+    margin: 0;
+}
+
+footer h6{
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    background-color: #F8F5F1;
+    color: #0c0c0c;
+}
+
+hr{
+    width: 10%;
+    margin-bottom: 10px;
+    background-color: black;
+}

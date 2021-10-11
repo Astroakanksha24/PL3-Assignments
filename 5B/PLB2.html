@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count the digits</title>
+    <link rel="stylesheet" href="PLB2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Lobster&family=Nunito+Sans:wght@200&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+        <header class="progName"><h1>Program to obtain count of digits in a number</h1></header>
+        <section>
+            <h2>
+                Problem Statement
+            </h2>
+            <p>Write a code in any programming language that counts the
+                digits in a number</p>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section>
+            <h2>
+                Code
+            </h2>
+            <p>We write the program in Python</p>
+            <div class="theCode">
+                <code>
+
+                    <dfn># We write the recursive call function.</dfn><br><br>
+                    def countDigit(n):<br>
+                    &nbsp;&nbsp;if n/10 == 0:<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;return 1<br>
+                    &nbsp;&nbsp;return 1 + countDigit(n // 10)<br>
+                    <br>
+                    n = int(input())<br>
+                    <br>
+                    <samp># Calling the Function in main</samp><br>
+                    print(countDigit(n))
+                </code>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h2>
+                Testcases
+            </h2>
+            <article>
+                <h4>Sample Input</h4>
+                <h5>5893568</h5>
+                <h4>Sample Output</h4>
+                <h5>7</h5>
+            </article>
+            <br>
+            <article>
+                <h4>Sample Input</h4>
+                <h5>46</h5>
+                <h4>Sample Output</h4>
+                <h5>2</h5>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h2>Variables</h2>
+            <article>
+                <var>n</var> - We shall traverse the recursive function through this n till it satisfies the base condition.
+            </article>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <h2>Complexity</h2>
+            <article>
+                <p>Time Complexity: O(n)</p>
+            </article>
+        </section>
+        <br>
+        <section>
+            <h2>References</h2>
+            <article class="refs">
+                GeeksForGeeks Article - <a target="_blank" href="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/">link</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h6>Made by Akanksha Chaudhari 2019BTECS0093</h6>
+    </footer>
+</body>
+</html>
